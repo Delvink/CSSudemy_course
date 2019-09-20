@@ -1,0 +1,77 @@
+main{
+    padding-top: 32px
+}
+.background{
+    background: url("../packages/images/plans-background.jpg");
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+.clearfix{
+    clear: both;
+}
+.plan1{
+    background: rgb(213, 255, 220, 0.95);
+    z-index: 1;
+}
+.plan2{
+    background: rgb(234, 252, 237, 0.95);
+    float: right;
+}
+.plan3{
+    background: rgb(14, 79, 31, 0.95)
+}
+.plans{
+    width: 80%;
+    margin: 16px 0;
+    border: 4px solid #0e4f1f;
+    border-left: none;
+    position: relative;
+}
+.plan2{
+    border-left: 4px solid #0e4f1f;
+    border-right: none;
+    text-align: right
+}
+.plans:hover,
+.plans:active{
+    border-color: #ff5454;
+    box-shadow: 2px 2px 4px rgb(0,0,0,0.5)
+}
+.plans a{
+    text-decoration: none;
+    color: inherit;
+    padding: 32px;
+    display: block; /*Ensures that the anchor tag takes the full available width of the sorrounding section*/
+}
+.plans .badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    color: white;
+    background: #ff5454;
+    padding: 8px;
+    font-size: 12px;
+    z-index: 10;
+}
+.plans h1{
+    color: black
+}
+.plans h2{
+    color: #979797
+}
+.plan3 h1{
+    color: white
+}
+.plan3 h2{
+    color: #bbb
+}
+.plans p{
+    color: #0e4f1f;
+    border: 1px solid #0e4f1f;
+    background: white; 
+    padding: 16px;
+    font-size: 20px
+}
